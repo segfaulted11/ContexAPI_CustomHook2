@@ -4,6 +4,7 @@ import UncontrolledFormData from "./UncontrolledFormData";
 import ControlledOnePerEach from "./ControlledOnePerEach";
 import UncontrolledUseRef from "./UncontrolledUseRef";
 import FormUsingCustomHook from "./Hooks/FormUsingCustomHook";
+import ProductManagement from "./Hooks/ProductManagement/ProductManagement";
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
     {/* <UncontrolledFormData/> */}
     {/* <ControlledOnePerEach/> */}
     {/* <UncontrolledUseRef/> */}
-    <FormUsingCustomHook/>
+    {/* <FormUsingCustomHook/> */}
+    <ProductManagement/>
     </>
   );
 }
