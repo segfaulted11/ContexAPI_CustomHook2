@@ -1,10 +1,18 @@
-import React from 'react';
+import { useContext } from "react";
+import { familyAssetContext } from "./FamilyTree";
 
-const Special = ({familyAsset}) => {
+const Special = () => {
+
+    // Access shared data from the Context
+    // useContext() reads the value provided by familyAssetContext.Provider
+    const familyAsset = useContext(familyAssetContext);
+
     return (
         <div>
             <h3>Special</h3>
-            <h4>family assest : {familyAsset}</h4>
+
+            {/* Display the shared family asset value */}
+            <h4>family asset : {familyAsset}</h4>
         </div>
     );
 };

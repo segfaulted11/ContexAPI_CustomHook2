@@ -2,12 +2,12 @@ import Myself from './Myself';
 import Brother from './Brother';
 import Sister from './Sister';
 
-const Dad = ({familyAsset}) => {
+const Dad = () => {
     return (
         <div>
             <h3>Dad</h3>
             <section>
-                <Myself familyAsset={familyAsset}/>
+                <Myself />
                 <Brother/>
                 <Sister/>
             </section>

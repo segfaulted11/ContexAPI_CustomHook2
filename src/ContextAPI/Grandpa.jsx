@@ -3,12 +3,12 @@ import Dad from './Dad';
 import Aunt from './Aunt';
 import './style.css'
 
-const Grandpa = ({familyAsset}) => {
+const Grandpa = () => {
     return (
         <div>
             <h1>Grandpa</h1>
             <section className='flex'>
-                <Dad familyAsset={familyAsset}/>
+                <Dad/>
                 <Uncle/>
                 <Aunt/>
             </section>
